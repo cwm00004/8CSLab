@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #f0f0f0; /* Set your desired background color or image */
+  background: #333; /* Darker background color */
+  color: #eee; /* Lighter text color for better contrast */
 }
 
 .container {
@@ -13,10 +14,10 @@ body {
 }
 
 .todo-container {
-  background: #fff;
+  background: #444; /* Slightly lighter container background */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adjusted shadow for better contrast */
 }
 
 .input-container {
@@ -26,23 +27,25 @@ body {
 
 input {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #888; /* Darker input border */
   border-radius: 4px;
   flex: 1;
+  background: #555; /* Input background */
+  color: #eee; /* Input text color */
 }
 
 button {
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
-  background: #4285f4;
-  color: gray;
+  background: #4285f4; /* Retaining the original button color for contrast */
+  color: #ccc; /* Adjusted text color for better visibility */
   margin-left: 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #356ace;
+  background: #356ace; /* Hover color remains the same */
 }
 
 .todo-list {
@@ -52,23 +55,23 @@ button:hover {
 
 li {
   padding: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #666; /* Darker border between list items */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 li.even {
-  background: #f9f9f9;
+  background: #333; /* Darker even row background */
 }
 
 li.odd {
-  background: #e9e9e9;
+  background: #444; /* Slightly lighter odd row background */
 }
 
 li:hover {
-  background: #dcdcdc;
-  color: #333;
+  background: #666; /* Darker hover background */
+  color: #eee; /* Adjusted text color for better visibility on hover */
 }
 
 button {
